@@ -61,12 +61,16 @@ cmd命令一览：
     ```
     powercfg -SetAcValueIndex SCHEME_CURRENT SUB_PROCESSOR "40fbefc7-2e9d-4d25-a185-0cfd8574bac7" 1
     ```
+- 处理器性能时间检查间隔
+    ```
+    powercfg -SetAcValueIndex SCHEME_CURRENT SUB_PROCESSOR "4d2b0152-7d5c-498b-88e2-34345392a2c5" 25
+    ```
 - 处理器性能提升时间
     ```
-    powercfg -SetAcValueIndex SCHEME_CURRENT SUB_PROCESSOR "984cf492-3bed-4488-a8f9-4286c97bf5aa" 6
+    powercfg -SetAcValueIndex SCHEME_CURRENT SUB_PROCESSOR "984cf492-3bed-4488-a8f9-4286c97bf5aa" 4
     ```
     ```
-    powercfg -SetAcValueIndex SCHEME_CURRENT SUB_PROCESSOR "984cf492-3bed-4488-a8f9-4286c97bf5ab" 6
+    powercfg -SetAcValueIndex SCHEME_CURRENT SUB_PROCESSOR "984cf492-3bed-4488-a8f9-4286c97bf5ab" 4
     ```
 - 处理器性能下降时间
     ```
