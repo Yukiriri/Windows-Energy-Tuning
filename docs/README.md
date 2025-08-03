@@ -111,6 +111,18 @@ cmd命令一览：
     powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "7b224883-b3cc-4d79-819f-8374152cbe7c" 66
     powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "4b92d758-5a24-4851-a470-815d78aee119" 50
     ```
+- 处理器性能内核休止并发阈值 | 处理器性能内核休止并发空间阈值 | 处理器性能核心放置最小核心数量
+    ```
+    powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "2430ab6f-a520-44a2-9601-f7f23b5134b1" 1
+    powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "f735a673-2066-4f80-a0c5-ddee0cf1bf5d" 1
+    powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "0cc5b647-c1df-4637-891a-dec35c318583" 50
+    powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "0cc5b647-c1df-4637-891a-dec35c318584" 50
+    ```
+
+    > [!NOTE]
+    > 可选  
+    > 休眠一半核心  
+
 - 让修改生效
     ```
     powercfg -SetActive SCHEME_CURRENT
