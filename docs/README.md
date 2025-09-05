@@ -46,9 +46,9 @@ cmd命令一览：
   ```
 - 处理器性能时间检查间隔 | 处理器性能提升时间 | 处理器性能下降时间
   ```
-  powercfg -SetAcValueIndex SCHEME_CURRENT SUB_PROCESSOR "4d2b0152-7d5c-498b-88e2-34345392a2c5" 25
-  powercfg -SetAcValueIndex SCHEME_CURRENT SUB_PROCESSOR "984cf492-3bed-4488-a8f9-4286c97bf5aa" 2
-  powercfg -SetAcValueIndex SCHEME_CURRENT SUB_PROCESSOR "984cf492-3bed-4488-a8f9-4286c97bf5ab" 2
+  powercfg -SetAcValueIndex SCHEME_CURRENT SUB_PROCESSOR "4d2b0152-7d5c-498b-88e2-34345392a2c5" 50
+  powercfg -SetAcValueIndex SCHEME_CURRENT SUB_PROCESSOR "984cf492-3bed-4488-a8f9-4286c97bf5aa" 1
+  powercfg -SetAcValueIndex SCHEME_CURRENT SUB_PROCESSOR "984cf492-3bed-4488-a8f9-4286c97bf5ab" 1
   powercfg -SetAcValueIndex SCHEME_CURRENT SUB_PROCESSOR "d8edeb9b-95cf-4f95-a73c-b061973693c8" 1
   powercfg -SetAcValueIndex SCHEME_CURRENT SUB_PROCESSOR "d8edeb9b-95cf-4f95-a73c-b061973693c9" 1
   ```
@@ -99,9 +99,9 @@ cmd命令一览：
   ```
 - 处理器性能时间检查间隔 | 处理器性能提升时间 | 处理器性能下降时间
   ```
-  powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "4d2b0152-7d5c-498b-88e2-34345392a2c5" 25
-  powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "984cf492-3bed-4488-a8f9-4286c97bf5aa" 4
-  powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "984cf492-3bed-4488-a8f9-4286c97bf5ab" 4
+  powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "4d2b0152-7d5c-498b-88e2-34345392a2c5" 50
+  powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "984cf492-3bed-4488-a8f9-4286c97bf5aa" 2
+  powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "984cf492-3bed-4488-a8f9-4286c97bf5ab" 2
   powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "d8edeb9b-95cf-4f95-a73c-b061973693c8" 1
   powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "d8edeb9b-95cf-4f95-a73c-b061973693c9" 1
   ```
@@ -111,12 +111,12 @@ cmd命令一览：
   powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "7b224883-b3cc-4d79-819f-8374152cbe7c" 66
   powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "4b92d758-5a24-4851-a470-815d78aee119" 50
   ```
-- 处理器性能内核休止并发阈值 | 处理器性能内核休止并发空间阈值 | 处理器性能核心放置最小核心数量
+- 处理器性能核心放置最小核心数量 | 处理器性能内核休止并发阈值 | 处理器性能内核休止并发空间阈值
   ```
-  powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "2430ab6f-a520-44a2-9601-f7f23b5134b1" 50
-  powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "f735a673-2066-4f80-a0c5-ddee0cf1bf5d" 1
   powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "0cc5b647-c1df-4637-891a-dec35c318583" 50
   powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "0cc5b647-c1df-4637-891a-dec35c318584" 50
+  powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "2430ab6f-a520-44a2-9601-f7f23b5134b1" 50
+  powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "f735a673-2066-4f80-a0c5-ddee0cf1bf5d" 1
   ```
 
 > [!NOTE]
