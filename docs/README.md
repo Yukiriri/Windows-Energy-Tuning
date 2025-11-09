@@ -43,7 +43,7 @@ cmd命令一览：
   ```
 - 处理器闲置时间检查 & 处理器闲置升级阈值 & 处理器闲置降级阈值
   ```
-  powercfg -SetAcValueIndex SCHEME_CURRENT SUB_PROCESSOR "c4581c31-89ab-4597-8e2b-9c9cab440e6b" 30000
+  powercfg -SetAcValueIndex SCHEME_CURRENT SUB_PROCESSOR "c4581c31-89ab-4597-8e2b-9c9cab440e6b" 20000
   powercfg -SetAcValueIndex SCHEME_CURRENT SUB_PROCESSOR "7b224883-b3cc-4d79-819f-8374152cbe7c" 50
   powercfg -SetAcValueIndex SCHEME_CURRENT SUB_PROCESSOR "4b92d758-5a24-4851-a470-815d78aee119" 25
   ```
@@ -87,7 +87,7 @@ cmd命令一览：
   ```
 - 处理器闲置时间检查 & 处理器闲置升级阈值 & 处理器闲置降级阈值
   ```
-  powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "c4581c31-89ab-4597-8e2b-9c9cab440e6b" 30000
+  powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "c4581c31-89ab-4597-8e2b-9c9cab440e6b" 20000
   powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "7b224883-b3cc-4d79-819f-8374152cbe7c" 66
   powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "4b92d758-5a24-4851-a470-815d78aee119" 50
   ```
