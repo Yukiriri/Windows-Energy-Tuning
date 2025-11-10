@@ -1,29 +1,28 @@
-powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "893dee8e-2bef-41e0-89c6-b55d0929964c" 5
-powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "893dee8e-2bef-41e0-89c6-b55d0929964d" 5
-powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "893dee8e-2bef-41e0-89c6-b55d0929964e" 5
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor PerfAutonomous 0
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor PerfBoostMode 1
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor PerfBoostPol 0
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor ProcThrottleMin 5
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor ProcThrottleMin1 5
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor ProcThrottleMin2 5
 
-powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "8baa4a8a-14c6-4451-8e8b-14bdbd197537" 0
-powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "be337238-0d82-4146-a960-4f3749d470c7" 1
-powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "465e1f50-b610-473a-ab58-00d1077dc418" 1
-powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "465e1f50-b610-473a-ab58-00d1077dc419" 1
-powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "40fbefc7-2e9d-4d25-a185-0cfd8574bac6" 1
-powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "40fbefc7-2e9d-4d25-a185-0cfd8574bac7" 1
-powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "6c2993b0-8f48-481f-bcc6-00dd2742aa06" 1
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor PerfCheck 8
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor PerfIncPol 1
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor PerfIncPol1 1
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor PerfDecPol 1
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor PerfDecPol1 1
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor PerfIncThreshold 66
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor PerfIncThreshold1 66
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor PerfDecThreshold 50
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor PerfDecThreshold1 50
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor IdleScaling 1
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor IdleCheck 16000
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor IdlePromote 66
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor IdleDemote 50
 
-powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "4d2b0152-7d5c-498b-88e2-34345392a2c5" 10
-powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "06cadf0e-64ed-448a-8927-ce7bf90eb35d" 66
-powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "06cadf0e-64ed-448a-8927-ce7bf90eb35e" 66
-powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "12a0ab44-fe28-4fa9-b3bd-4b64f44960a6" 50
-powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "12a0ab44-fe28-4fa9-b3bd-4b64f44960a7" 50
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor CPMinCores 50
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor CPMinCores1 50
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor CPConcurrency 0
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor CPHeadroom 0
+powercfg -SetDcValueIndex Scheme_Current Sub_Processor CPDistribution 0
 
-powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "c4581c31-89ab-4597-8e2b-9c9cab440e6b" 20000
-powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "7b224883-b3cc-4d79-819f-8374152cbe7c" 66
-powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "4b92d758-5a24-4851-a470-815d78aee119" 50
-
-powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "0cc5b647-c1df-4637-891a-dec35c318583" 50
-powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "0cc5b647-c1df-4637-891a-dec35c318584" 50
-powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "2430ab6f-a520-44a2-9601-f7f23b5134b1" 0
-powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "f735a673-2066-4f80-a0c5-ddee0cf1bf5d" 100
-powercfg -SetDcValueIndex SCHEME_CURRENT SUB_PROCESSOR "4bdaf4e9-d103-46d7-a5f0-6280121616ef" 0
-
-powercfg -SetActive SCHEME_CURRENT
+powercfg -SetActive Scheme_Current
