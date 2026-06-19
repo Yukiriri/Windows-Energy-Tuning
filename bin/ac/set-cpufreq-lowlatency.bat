@@ -16,8 +16,8 @@ set call_powercfg=powercfg -SetAcValueIndex Scheme_Current Sub_Processor
 %call_powercfg% PerfEPP 50
 %call_powercfg% PerfEPP1 50
 %call_powercfg% PerfEPP2 50
-%call_powercfg% LatencyHintEPP 99
-%call_powercfg% LatencyHintEPP1 99
-%call_powercfg% LatencyHintEPP2 99
+%call_powercfg% LatencyHintEPP 100
+%call_powercfg% LatencyHintEPP1 100
+%call_powercfg% LatencyHintEPP2 100
 
 powercfg -SetActive Scheme_Current

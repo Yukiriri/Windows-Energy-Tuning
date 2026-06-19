@@ -7,7 +7,7 @@ set call_powercfg=powercfg -SetAcValueIndex Scheme_Current Sub_Processor
 %call_powercfg% ProcThrottleMax1 100
 %call_powercfg% ProcThrottleMax2 100
 
-%call_powercfg% PerfBoostMode 1
+%call_powercfg% PerfBoostMode 0
 
 %call_powercfg% PerfAutonomous 0
 %call_powercfg% PerfAutonomousWindow 16000
@@ -17,8 +17,6 @@ set call_powercfg=powercfg -SetAcValueIndex Scheme_Current Sub_Processor
 %call_powercfg% PerfIncThreshold1 0
 %call_powercfg% PerfDecThreshold 0
 %call_powercfg% PerfDecThreshold1 0
-%call_powercfg% PerfIncTime 1
-%call_powercfg% PerfIncTime1 1
 %call_powercfg% PerfIncPol 2
 %call_powercfg% PerfIncPol1 2
 %call_powercfg% PerfDecPol 1

@@ -15,16 +15,14 @@ set call_powercfg=powercfg -SetAcValueIndex Scheme_Current Sub_Processor
 %call_powercfg% PerfCheck 16
 %call_powercfg% PerfIncThreshold 50
 %call_powercfg% PerfIncThreshold1 50
-%call_powercfg% PerfDecThreshold 50
-%call_powercfg% PerfDecThreshold1 50
-%call_powercfg% PerfIncTime 2
-%call_powercfg% PerfIncTime1 2
+%call_powercfg% PerfDecThreshold 75
+%call_powercfg% PerfDecThreshold1 75
 %call_powercfg% PerfIncPol 1
 %call_powercfg% PerfIncPol1 1
 %call_powercfg% PerfDecPol 1
 %call_powercfg% PerfDecPol1 1
-%call_powercfg% LatencyHintPerf 99
-%call_powercfg% LatencyHintPerf1 99
-%call_powercfg% LatencyHintPerf2 99
+%call_powercfg% LatencyHintPerf 100
+%call_powercfg% LatencyHintPerf1 100
+%call_powercfg% LatencyHintPerf2 100
 
 powercfg -SetActive Scheme_Current
